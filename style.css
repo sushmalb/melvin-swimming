@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+
+.container {
+  height: 90vh;
+  background-image: linear-gradient(to right bottom ,rgba(255,255,255,0.5), rgba(250,250,250,0.5)),url("https://media.istockphoto.com/photos/female-swimmer-at-the-swimming-pool-picture-id465383082?k=20&m=465383082&s=612x612&w=0&h=7-2QQyWP_ap8XzUqsVmwvZ6lwmUYxqCbpHMPyScEQwc=" );
+  background-size: cover;
+   /* margin-left:5px;
+   margin-right:5px; */
+}
+
+.heading{
+  text-transform:uppercase;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
+  padding: 50px;
+  position:relative;
+}
+
+.caption {
+position:absolute;
+bottom: 100px;
+right:5px;
+font-family: 'Dancing Script', cursive;
+letter-spacing: 4px;
+}
+
+
+.navigation {
+  display : flex;
+  flex-direction: row;
+  width:100%;
+  height:60px;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+}
+
+.navigation a:link {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+  padding: 10px;
+  /* margin-right: 20px; */
+  color: black;
+  align-items:center;
+  /* padding-right:100px; */
+
+}
+
+.navigation a:hover {
+  /* border:1px solid black; */
+  background-color: white;
+}
+
+.navigation a:visited {
+  color: black;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap:wrap;
+  padding:5px;
+  
+}
+
+.item {
+  height:250px;
+  width:300px;
+  padding:5px;
+}
+
+.item-1 {
+  height:350px;
+  width:32.33%;
+  margin:5px;
+}
+
+.footer {
+  height: 50px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  padding-left:250px;
+  padding-right: 250px;
+}
+
+.footer i {
+  height:50px;
+  width:50px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.wrapper {
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height:1.7;
+  color: black;
+  display:flex;
+flex-wrap:wrap;
+font-size: 18px;;
+}
+
+.left-para, .right-para {
+
+  justify-content: space-between;
+  height: 200px;
+  width:50%;
+  padding:25px;
+}
+/* .right-para {
+
+  justify-content: space-between;
+  height: 200px;
+  width:50%;
+  padding:25px;
+}
+   */
+
+   .center-para{
+     padding:25px;
+   }
+.back-button:link {
+color: black;
+text-decoration: none;
+padding:5px;
+margin:20px;
+font-size:18px;
+position:absolute;
+bottom:50px;
+right:100px;
+font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: white;
+}
+
+.back-button:visited {
+  color: black;
+}
